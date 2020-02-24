@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ExplicitIntentActivity extends AppCompatActivity {
-
+public class ExplicitIntentActivity extends AppCompatActivity
+{
     private EditText nameInput;
     private TextView outputText;
 

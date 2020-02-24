@@ -10,11 +10,11 @@ import static id.ac.polinema.intent.BundleActivity.AGE_KEY;
 import static id.ac.polinema.intent.BundleActivity.NAME_KEY;
 import static id.ac.polinema.intent.BundleActivity.USERNAME_KEY;
 
-public class ProfileBundleActivity extends AppCompatActivity {
+public class ProfileBundleActivity extends AppCompatActivity
+{
     private TextView usernameText;
     private TextView nameText;
     private TextView ageText;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -31,6 +31,7 @@
             android:text="@string/android_bundle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:onClick="handleAndroidBundle"
             />
 

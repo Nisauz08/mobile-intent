@@ -14,6 +14,7 @@ public class User implements Parcelable {
         this.age = age;
     }
 
+
     public String getUsername() {
         return username;
     }

@@ -9,18 +9,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
 
-public class ImplicitIntentActivity extends AppCompatActivity {
-
+public class ImplicitIntentActivity extends AppCompatActivity
+{
     private static final String TAG = ImplicitIntentActivity.class.getCanonicalName();
     private static final int GALLERY_REQUEST_CODE = 1;
-
-
     private ImageView avatarImage;
 
     @Override

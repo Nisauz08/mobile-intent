@@ -7,14 +7,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import id.ac.polinema.intent.Model.User;
 
-public class ProfileParcelableActivity extends AppCompatActivity {
+public class ProfileParcelableActivity extends AppCompatActivity
+{
     private static final String USER_KEY = "user";
     private TextView usernameText;
     private TextView nameText;
     private TextView ageText;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_parcelable);
 

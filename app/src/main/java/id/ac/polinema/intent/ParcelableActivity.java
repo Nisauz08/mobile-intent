@@ -13,19 +13,16 @@ import static id.ac.polinema.intent.BundleActivity.AGE_KEY;
 import static id.ac.polinema.intent.BundleActivity.NAME_KEY;
 import static id.ac.polinema.intent.BundleActivity.USERNAME_KEY;
 
-public class ParcelableActivity extends AppCompatActivity {
-
+public class ParcelableActivity extends AppCompatActivity
+{
     private static final String USER_KEY = "user";
-
     private EditText usernameInput;
     private EditText nameInput;
     private EditText ageInput;
 
-
-
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parcelable);
 
@@ -35,7 +32,8 @@ public class ParcelableActivity extends AppCompatActivity {
     }
 
 
-    public void handleSubmit(View view) {
+    public void handleSubmit(View view)
+    {
         String username = usernameInput.getText().toString();
         String name = nameInput.getText().toString();
         int age = Integer.parseInt(ageInput.getText().toString());
