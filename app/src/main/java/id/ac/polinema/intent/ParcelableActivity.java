@@ -42,7 +42,7 @@ public class ParcelableActivity extends AppCompatActivity {
 
         //mendeklarasikan variabel user
         User user = new User(username, name, age);
-        Intent intent = new Intent(this, ProfileBundleActivity.class);
+        Intent intent = new Intent(this, ProfileParcelableActivity.class);
         intent.putExtra(USER_KEY, user);
 
         startActivity(intent);
